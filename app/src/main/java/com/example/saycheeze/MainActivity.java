@@ -52,9 +52,10 @@ public class MainActivity extends AppCompatActivity
 
     //public native void ConvertRGBtoGray(long matAddrInput, long matAddrResult);
     public native long loadCascade(String cascadeFileName );
-    public native void detect(long cascadeClassifier_face,
+    public native int detect(long cascadeClassifier_face,
                               long cascadeClassifier_eye, long matAddrInput, long matAddrResult);
-
+    public native int detectx(long cascadeClassifier_face,
+                              long cascadeClassifier_eye, long matAddrInput, long matAddrResult);
 
 
 
@@ -287,8 +288,15 @@ public class MainActivity extends AppCompatActivity
         //ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());
         Core.flip(matInput, matInput, 1);
 
-        detect(cascadeClassifier_face,cascadeClassifier_eye, matInput.getNativeObjAddr(),
-                matResult.getNativeObjAddr());
+            int facex = detect(cascadeClassifier_face,cascadeClassifier_eye, matInput.getNativeObjAddr(),
+                    matResult.getNativeObjAddr());
+            int facey = detectx(cascadeClassifier_face,cascadeClassifier_eye, matInput.getNativeObjAddr(),
+                    matResult.getNativeObjAddr());
+
+            Intent in = new Intent(this, bluetoothActivity.class);
+            in.putExtra("x좌표", facex);
+            in.putExtra("y좌표", facey);
+            startActivity(in);
 
 
 
