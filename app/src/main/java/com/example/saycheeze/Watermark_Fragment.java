@@ -19,6 +19,7 @@ import androidx.fragment.app.FragmentTransaction;
 public class Watermark_Fragment extends Fragment {
 
     ImageView view1;
+    ImageView view2;
 
     public Watermark_Fragment() {
 
@@ -30,6 +31,7 @@ public class Watermark_Fragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_watermark, container, false);
 
         view1 = (ImageView)view.findViewById(R.id.imageView1);
+        view2 = ((MainActivity)getActivity()).findViewById(R.id.imageView_activity);
 
         ImageButton button1 = (ImageButton)view.findViewById(R.id.imageButton1);
         button1.setOnClickListener(new View.OnClickListener() {
@@ -37,6 +39,7 @@ public class Watermark_Fragment extends Fragment {
 
                 //view1.setImageDrawable(R.drawable.mark2);
                 view1.setImageResource(R.drawable.mark2);
+                view2.setImageResource(R.drawable.mark2);
             }
         });
 
@@ -45,6 +48,7 @@ public class Watermark_Fragment extends Fragment {
             public void onClick(View v) {
 
                 view1.setImageResource(R.drawable.mark3);
+                view2.setImageResource(R.drawable.mark3);
             }
         });
 
@@ -53,6 +57,7 @@ public class Watermark_Fragment extends Fragment {
             public void onClick(View v) {
 
                 view1.setImageResource(R.drawable.mark7);
+                view2.setImageResource(R.drawable.mark7);
             }
         });
 
@@ -61,6 +66,7 @@ public class Watermark_Fragment extends Fragment {
             public void onClick(View v) {
 
                 view1.setImageResource(R.drawable.mark4);
+                view2.setImageResource(R.drawable.mark4);
             }
         });
 
@@ -69,6 +75,7 @@ public class Watermark_Fragment extends Fragment {
             public void onClick(View v) {
 
                 view1.setImageResource(R.drawable.mark5);
+                view2.setImageResource(R.drawable.mark5);
             }
         });
 
@@ -77,6 +84,7 @@ public class Watermark_Fragment extends Fragment {
             public void onClick(View v) {
 
                 view1.setImageResource(R.drawable.mark6);
+                view2.setImageResource(R.drawable.mark6);
             }
         });
 

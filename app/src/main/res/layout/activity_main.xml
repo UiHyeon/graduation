@@ -18,22 +18,18 @@
             android:layout_height="match_parent" />
 
         <ImageView
-            android:id="@+id/imageView1"
+            android:id="@+id/imageView_activity"
             android:layout_width="620dp"
             android:layout_height="match_parent" />
-
 
     </FrameLayout>
 
     <RelativeLayout
         android:layout_width="110dp"
         android:layout_height="match_parent"
-
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:orientation="vertical">
-
-
 
         <ImageButton
             android:id="@+id/button"
@@ -44,8 +40,6 @@
             android:src="@drawable/camerabtn"
             android:background="@android:color/transparent"
             />
-
-
 
     </RelativeLayout>
 
