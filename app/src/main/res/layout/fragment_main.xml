@@ -7,8 +7,6 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-
-
     <RelativeLayout
         android:layout_width="110dp"
         android:layout_height="match_parent"
