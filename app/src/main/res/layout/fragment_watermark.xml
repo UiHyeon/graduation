@@ -8,12 +8,12 @@
     android:orientation="vertical">
 
     <FrameLayout
-        android:layout_width="620dp"
+        android:layout_width="690dp"
         android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/imageView_watermark"
-            android:layout_width="620dp"
+            android:layout_width="690dp"
             android:layout_height="match_parent" />
 
         <Button
@@ -39,6 +39,14 @@
             android:orientation="vertical"
             android:paddingRight="10px">
 
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/none"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
@@ -61,7 +69,7 @@
                 android:layout_height="100dp"
                 android:src="@drawable/mark3b"
                 android:background="@android:color/transparent"
-                android:scaleType="centerCrop"/>
+                android:scaleType="fitCenter"/>
 
             <ImageButton
                 android:id="@+id/imageButton6"
@@ -77,7 +85,39 @@
                 android:layout_height="100dp"
                 android:src="@drawable/mark4b"
                 android:background="@android:color/transparent"
-                android:scaleType="centerCrop"/>
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark11b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark12b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark13b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark14b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -93,7 +133,7 @@
                 android:layout_height="100dp"
                 android:src="@drawable/mark5b"
                 android:background="@android:color/transparent"
-                android:scaleType="centerCrop"/>
+                android:scaleType="fitCenter"/>
 
             <ImageButton
                 android:id="@+id/imageButton5"
@@ -101,7 +141,39 @@
                 android:layout_height="100dp"
                 android:src="@drawable/mark6b"
                 android:background="@android:color/transparent"
-                android:scaleType="centerCrop"/>
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark8"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark9b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark10b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark15b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
 
         </LinearLayout>
 

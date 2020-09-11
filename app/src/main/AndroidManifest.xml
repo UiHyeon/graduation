@@ -39,16 +39,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".bluetoothActivity">
-
-        </activity>
-
-        <activity android:name=".NewActivity"
-            android:screenOrientation="landscape"
-            android:configChanges="keyboardHidden|orientation">
-
-
-        </activity>
     </application>
 
 </manifest>

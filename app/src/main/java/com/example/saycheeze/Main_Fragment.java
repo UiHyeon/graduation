@@ -61,16 +61,6 @@ public class Main_Fragment extends Fragment {
 
         super.onCreate(savedInstanceState);
 
-        ImageButton bluetoothbutton = (ImageButton)view.findViewById(R.id.bluetooth);
-
-        bluetoothbutton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-
-                Intent in = new Intent(getActivity().getApplicationContext(), bluetoothActivity.class);
-                startActivity(in);
-
-            }
-        });
 
         ImageButton watermark = (ImageButton)view.findViewById(R.id.watermark);
         watermark.setOnClickListener(new View.OnClickListener() {
