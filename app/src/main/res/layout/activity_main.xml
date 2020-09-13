@@ -10,8 +10,7 @@
 
     <FrameLayout
         android:layout_width="690dp"
-        android:layout_height="match_parent"
-        android:layout_marginStart="0dp">
+        android:layout_height="match_parent">
 
         <org.opencv.android.JavaCameraView
             android:id="@+id/activity_surface_view"
@@ -21,15 +20,42 @@
         <ImageView
             android:id="@+id/imageView_activity"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_marginStart="60dp"/>
 
         <RelativeLayout
             android:id="@+id/menu"
-            android:layout_width="80dp"
+            android:layout_width="60dp"
             android:layout_height="match_parent"
             android:background="@android:color/white"
-            android:orientation="vertical" />
+            android:orientation="vertical">
 
+            <ToggleButton
+                android:id="@+id/btnon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="90dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bluetoothon"
+                android:scaleType="fitCenter"
+                android:textOff=""
+                android:textOn="" />
+
+            <ImageButton
+                android:id="@+id/btnservice"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/list"
+                android:scaleType="fitCenter"
+                android:text="btnservice" />
+
+        </RelativeLayout>
 
     </FrameLayout>
 
@@ -41,19 +67,6 @@
         android:layout_centerVertical="true"
         android:orientation="vertical">
 
-
-        <ToggleButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_above="@+id/button"
-            android:id="@+id/btnon"
-            android:scaleType="fitCenter"
-            android:layout_marginBottom="30dp"
-            android:textOn=""
-            android:textOff=""
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/bluetoothon" />
-
         <ImageButton
             android:id="@+id/button"
             android:layout_width="50dp"
@@ -63,28 +76,6 @@
             android:src="@drawable/camerabtn"
             android:background="@android:color/transparent"
             />
-        <ImageButton
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_below="@+id/button"
-            android:layout_centerInParent="true"
-            android:id="@+id/btnservice"
-            android:text="btnservice"
-            android:layout_marginTop="30dp"
-            android:scaleType="fitCenter"
-            android:background="@drawable/list"
-            />
-
-
-
-
-
-        <!-- <include
-             android:id="@+id/watermarkInclude"
-             layout="@layout/watermark_view"
-             android:layout_width="90dp"
-             android:layout_height="match_parent" /> -->
-
 
     </RelativeLayout>
 

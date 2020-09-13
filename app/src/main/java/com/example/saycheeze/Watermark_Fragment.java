@@ -81,8 +81,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 100;
-                imageViewLocation[1] += 10;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 995;
+                imageViewLocation[1] += 120;
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -117,8 +118,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 820;
-                imageViewLocation[1] += 220;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 1000;
+                imageViewLocation[1] += 220; // 수정
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -137,8 +139,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 400;
-                imageViewLocation[1] += 40;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 1000;
+                imageViewLocation[1] += 184;
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -157,8 +160,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 300;
-                imageViewLocation[1] += 20;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 1015;
+                imageViewLocation[1] += 20; // 수정
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -177,8 +181,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 100;
-                imageViewLocation[1] += 20;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 1010;
+                imageViewLocation[1] += 20; // 수정
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -197,8 +202,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 635;
-                imageViewLocation[1] += 130;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 993;
+                imageViewLocation[1] += 206;
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -217,8 +223,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 635;
-                imageViewLocation[1] += 130;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 1030;
+                imageViewLocation[1] += 91;
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -237,8 +244,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 635;
-                imageViewLocation[1] += 130;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 996;
+                imageViewLocation[1] += 218;
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -257,8 +265,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 635;
-                imageViewLocation[1] += 130;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 933;
+                imageViewLocation[1] += 184;
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -277,8 +286,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 635;
-                imageViewLocation[1] += 130;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 980;
+                imageViewLocation[1] += 120;
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -297,8 +307,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 635;
-                imageViewLocation[1] += 130;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 1090;
+                imageViewLocation[1] += 90;
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -317,8 +328,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 635;
-                imageViewLocation[1] += 130;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 928;
+                imageViewLocation[1] += 96;
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -337,8 +349,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 635;
-                imageViewLocation[1] += 130;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 1155;
+                imageViewLocation[1] += 165;
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
@@ -357,8 +370,9 @@ public interface OnTimePointSetListener {
 
                 view2.getLocationOnScreen(imageViewLocation);
 
-                imageViewLocation[0] += 635;
-                imageViewLocation[1] += 130;
+                imageViewLocation[0] -= 158;
+                imageViewLocation[0] += 866;
+                imageViewLocation[1] += 213;
 
                 onTimePointSetListener.OnTimePointSet(imageViewLocation);
 
